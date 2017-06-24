@@ -1,0 +1,92 @@
+html {
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 10px;
+  min-height: 100%
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  min-height: 100%
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.masthead {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10rem 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  line-height: 3rem;
+  color: #53f
+}
+
+.masthead p {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.colophon {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.colophon p {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.colophon a {
+  align-self: flex-end;
+  color: #212121;
+  background: #ffc600;
+  transition: all .2s ease;
+}
+
+.colophon a:hover {
+  background: #fff;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 6px solid #53f;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: #53f;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
