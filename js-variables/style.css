@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background: #53f;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+}
+
+.masthead {
+  text-align: center;
+  margin: 5em 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
+  line-height: 3em;
+  color: #fff
+}
+
+.colophon {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.colophon p {
+  font-size: 1.6em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.colophon a {
+  align-self: flex-end;
+  color: #212121;
+  background: #ffc600;
+  transition: all .2s ease;
+}
+
+.colophon a:hover {
+  background: #fff;
+}
+
+.controls {
+  margin-bottom: 50px;
+  font-size: 2em;
+
+}
+
+input {
+  width: 100px;
+}
+
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+
+
+
+
